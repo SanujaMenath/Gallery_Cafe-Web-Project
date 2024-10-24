@@ -1,0 +1,25 @@
+/*=============== ABOUT ===============*/
+.about_container{
+    row-gap: 4rem;
+  }
+  
+  .about_data{
+    position: relative;
+    text-align: center;
+  }
+  
+  .about_description{
+    margin-bottom:3rem ;
+  }
+  
+  .about_bread{
+    width: 60px;
+    position: absolute;
+    bottom: 1rem;
+    right:0;
+  }
+  
+  .about_img{
+    width: 320px;
+    justify-self: center;
+  }

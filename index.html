@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css"
+    />
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <!-- <link rel="stylesheet" href="assets/css/footer.css"> -->
+    
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive bakery website - Bedimcode</title>
+  </head>
+  <body>
+    <!--====== HEADER ======-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Gallery Cafe</a>
+
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link"> Home </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#about" class="nav_link"> About Us </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="./menu.html" class="nav_link"> Menu </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#favorite" class="nav_link"> Favourites </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#contact" class="nav_link"> Contact </a>
+            </li>
+          </ul>
+
+          <!-- close Button-->
+          <div class="nav_close" id="nav_close">
+            <i class="ri-close-line"></i>
+          </div>
+
+          <img src="assets/img/bread-4.png" alt="" class="nav_img_1" />
+          <img src="assets/img/bread-1.png" alt="" class="nav_img_2" />
+        </div>
+
+        <!-- Toggle Button -->
+        <div class="nav_toggle" id="nav_toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--================ MAIN ================-->
+    <main class="main">
+
+      <!-- HOME -->
+      <section class="home section" id="home">
+        <img src="assets/img/home-bg.jpg" alt="image" class="home_bg" />
+        <div class="home_shadow"></div>
+
+        <div class="home_container container grid">
+          <div class="home_data">
+            <h1 class="home_title">
+              Select The Best <br />
+              Quality Breads
+            </h1>
+            <a href="#favorite" class="button">Select Breads</a>
+            <img src="assets/img/bread-1.png" alt="" class="home_bread" />
+          </div>
+          <div class="home_image">
+            <img src="assets/img/home-bread.png" alt="" class="home_image" />
+          </div>
+
+          <footer class="home_footer">
+            <div class="home_location">
+              <i class="ri-map-pin-line"></i>
+
+              <span>
+                No.26  &nbsp; Jawatta Rd, <br />
+                Colombo 0400
+              </span>
+            </div>
+            <div class="home_social">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="ri-facebook-circle-fill"></i>
+              </a>
+              <a href="" target="_blank">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="" target="_blank">
+                <i class="ri-whatsapp-line"></i>
+              </a>
+              <a href="" target="_blank">
+                <i class="ri-tiktok-line"></i>
+              </a>
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!--======= ABOUT =======-->
+
+      <section class="about section" id="about">
+        <div class="about_container container grid">
+          <div class="about_data">
+            <h2 class="section__title">About Us</h2>
+
+            <p class="about_description">
+              We prepare all types of bread that are made at home, maintaining
+              the tradition of using only the best ingredients made with local
+              products whenever possible. We have an extensive line of freshly
+              prepared bakery and coffee products.
+            </p>
+
+            <a href="#footer" class="class">More Details</a>
+
+            <img src="assets/img/bread-2.png" alt="image" class="about_bread" />
+          </div>
+
+          <img src="assets/img/about-bread.png" alt="image" class="about_img" />
+        </div>
+      </section>
+
+      <!--== FAVORITES ==-->
+
+      <section class="favorite section" id="favorite">
+        <h2 class="section__title">Customer Favorites</h2>
+
+        <div class="favorite_container container grid">
+          <article class="favorite_card">
+            <img
+              src="assets/img/favorite-bread-1.png"
+              alt=""
+              class="favorite_img"
+            />
+
+            <div class="favorite_data">
+              <h2 class="favorite_title">Whole Grain</h2>
+              <span class="favorite_subtitle">Bread</span>
+              <h3 class="favorite_price">Rs.600</h3>
+            </div>
+            <button class="favorite_button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <article class="favorite_card">
+            <img
+              src="assets/img/favorite-bread-2.png"
+              alt=""
+              class="favorite_img"
+            />
+
+            <div class="favorite_data">
+              <h2 class="favorite_title">Rye</h2>
+              <span class="favorite_subtitle">Bread</span>
+              <h3 class="favorite_price">Rs.300</h3>
+            </div>
+            <button class="favorite_button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <article class="favorite_card">
+            <img
+              src="assets/img/favorite-bread-3.png"
+              alt=""
+              class="favorite_img"
+            />
+
+            <div class="favorite_data">
+              <h2 class="favorite_title">Wheat</h2>
+              <span class="favorite_subtitle">Bread</span>
+              <h3 class="favorite_price">Rs.520</h3>
+            </div>
+            <button class="favorite_button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <article class="favorite_card">
+            <img
+              src="assets/img/favorite-bread-4.png"
+              alt=""
+              class="favorite_img"
+            />
+
+            <div class="favorite_data">
+              <h2 class="favorite_title">Multigrain</h2>
+              <span class="favorite_subtitle">Bread</span>
+              <h3 class="favorite_price">Rs.480</h3>
+            </div>
+            <button class="favorite_button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <article class="favorite_card">
+            <img
+              src="assets/img/favorite-bread-5.png"
+              alt=""
+              class="favorite_img"
+            />
+
+            <div class="favorite_data">
+              <h2 class="favorite_title">Sourdough</h2>
+              <span class="favorite_subtitle">Bread</span>
+              <h3 class="favorite_price">Rs.650</h3>
+            </div>
+            <button class="favorite_button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+
+          <article class="favorite_card">
+            <img
+              src="assets/img/favorite-bread-6.png"
+              alt=""
+              class="favorite_img"
+            />
+
+            <div class="favorite_data">
+              <h2 class="favorite_title">French</h2>
+              <span class="favorite_subtitle">Bread</span>
+              <h3 class="favorite_price">Rs.400</h3>
+            </div>
+            <button class="favorite_button button">
+              <i class="ri-add-line"></i>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== Contact ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact_container">
+          <img src="assets/img/contact-bg.jpg" alt="" class="contact_bg" />
+
+          <div class="contact_shadow"></div>
+
+          <div class="contact_content container grid">
+            <div class="contact_data">
+              <h2 class="section__title">Contact Us</h2>
+
+              <p class="contact_description">
+                Discover the best bread, we look forward to your visit.
+              </p>
+
+              <a href="#" class="button">See Location</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="footer">
+      <div class="footer_container container grid">
+         <div>
+            <a href="#" class="footer_logo">Gallery Cafe</a>
+            <p class="footer_description">
+               We make the best bread <br> in the city.
+            </p>
+         </div>
+
+         <div class="footer_content grid">
+
+            <div>
+               <h3 class="footer_title">Address</h3>
+
+               <ul class="footer_list">
+                  <li>
+                     <address class="footer_info">No.26  &nbsp; Jawatta Rd, <br /> Colombo 0400</address>
+                  </li>
+                  <li>
+                     <address class="footer_info"> 9AM - 11PM</address>
+                  </li>
+               </ul>
+            </div>
+
+            <div>
+               <h3 class="footer_title">Contact Me</h3>
+
+               <ul class="footer_list">
+                  <li>
+                     <address class="footer_info">gallery_cafe@email.com</address>
+                  </li>
+                  <li>
+                     <address class="footer_info">+94 112 654 321</address>
+                  </li>
+               </ul>
+            </div>
+
+            <div>
+               <h3 class="footer_title">Follow Us</h3>
+
+              <div class="footer_social">
+               <a href="https://www.facebook.com/" target="_blank">
+                  <i class="ri-facebook-line"></i>
+               </a>
+
+               <a href="https://www.instagram.com/" target="_blank">
+                  <i class="ri-instagram-line"></i>
+               </a>
+
+               <a href="https://www.tiktok.com/" target="_blank">
+                  <i class="ri-tiktok-line"></i>
+               </a>
+              </div>
+            </div>
+         </div>
+
+         <img src="assets/img/bread-4.png" alt="image" class="footer_img-1">
+         <img src="assets/img/bread-3.png" alt="image" class="footer_img-2">
+      </div>
+
+      <span class="footer_copy">
+         &#169; All Rights Reserved By sanujamenath.
+      </span>
+    </footer>
+
+    <!-- Script File -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
