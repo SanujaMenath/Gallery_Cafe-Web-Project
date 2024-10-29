@@ -26,7 +26,7 @@ const linkAction = ()=>{
 }
 navLink.forEach(n => n.addEventListener('click',linkAction))
 
-/*=============== ADD BLUR HEADER ===============*/
+/* ADD BLUR HEADER */
 const blurHeader = ()=>{
     const header = document.getElementById('header')
 
@@ -36,10 +36,4 @@ const blurHeader = ()=>{
 
 window.addEventListener('scroll', blurHeader)
 
-/*=============== SHOW SCROLL UP ===============*/ 
 
-
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-
-
-/*=============== SCROLL REVEAL ANIMATION ===============*/

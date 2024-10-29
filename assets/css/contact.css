@@ -1,0 +1,37 @@
+/*=============== VISIT ===============*/
+.contact_container{
+    position: relative;
+    padding-block: 3rem;
+  }
+  
+  .contact_bg,
+  .contact_shadow{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  }
+  
+  .contact_bg{
+    object-fit: cover;
+    object-position: center ;
+  }
+  
+  .contact_shadow{
+    background: linear-gradient(180deg,
+    hsl(0, 0%, 6%)0%,
+    hsla(0,0%,4%, .1)50%,
+    hsla(0, 0%, 6%)100%);
+  }
+  
+  .contact_data{
+    text-align: center;
+  }
+  
+  .contact_description{
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+    margin-bottom: 3rem;
+  }

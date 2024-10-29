@@ -338,6 +338,7 @@ z-index: -1;
 .home_social a:hover{
   color: var(--first-color);
 }
+
 /*=============== BUTTON ===============*/
 .button{
   display: inline-flex;
@@ -352,99 +353,6 @@ z-index: -1;
   background-color: var(--first-color-alt);
 }
 
-
-/*=============== FAVORITES ===============*/
-.favorite_container{
-  padding-top: 3.5rem;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 4rem 1.5rem;
-}
-
-.favorite_card{
-  position: relative;
-  background-color: var(--container-color);
-  box-shadow: 0 12px 24px hsla(0,0%,0%,0.3);
-  padding: 6.5rem 1rem 1.25rem;
-  border: 2px solid transparent;
-  transition: border-color .4s;
-}
-
-.favorite_img{
-  width:120px ;
-  position: absolute;
-  top: -2rem;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
-.favorite_title{
-  font-size: var(--h2-font-size);
-  font-family: var(--second-font);
-  color: var(--first-color);
-}
-
-.favorite_subtitle{
-  display: block;
-  margin-bottom: .75rem ;
-}
-
-.favorite_price{
-  font-size: var(--normal-font-size);
-  font-family: var(--second-font);
-}
-
-.favorite_button{
-  padding: .25rem;
-  font-size: 1.25rem;
-  position: absolute;
-  bottom: 1.25rem;
-  right: 1rem;
-  cursor: pointer;
-}
-
-.favorite_card:hover{
-  border-color: var(--first-color);
-}
-
-
-/*=============== VISIT ===============*/
-.contact_container{
-  position: relative;
-  padding-block: 3rem;
-}
-
-.contact_bg,
-.contact_shadow{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-z-index: -1;
-}
-
-.contact_bg{
-  object-fit: cover;
-  object-position: center ;
-}
-
-.contact_shadow{
-  background: linear-gradient(180deg,
-  hsl(0, 0%, 6%)0%,
-  hsla(0,0%,4%, .1)50%,
-  hsla(0, 0%, 6%)100%);
-}
-
-.contact_data{
-  text-align: center;
-}
-
-.contact_description{
-  font-size: var(--h2-font-size);
-  color: var(--title-color);
-  margin-bottom: 3rem;
-}
 
 /*=============== FOOTER ===============*/
 .footer{
@@ -545,11 +453,6 @@ z-index: -1;
     row-gap: 2rem;
   }
 
-  .favorite_container{
-    grid-template-columns: 180px;
-    justify-content: center;
-  }
-
   .footer_content{
     grid-template-columns: max-content;
   }
@@ -572,11 +475,7 @@ z-index: -1;
     justify-content: center;
   }
 
-  .favorite_container{
-    grid-template-columns: repeat(2, 180px);
-    justify-content: center;
-  }
-
+  
   .footer_content{
     grid-template-columns: repeat(3, max-content);
   }
@@ -615,10 +514,7 @@ z-index: -1;
     text-align: initial;
   }
 
-  .favorite_container{
-    grid-template-columns: repeat(3, 180px);
-  }
-
+ 
   .footer_container{
     grid-template-columns: repeat(2, max-content);
     justify-content: space-between;
@@ -702,26 +598,6 @@ z-index: -1;
   right: 4rem;
 }
 
-.favorite_container{
-  padding-top: 5.5rem;
-  grid-template-columns: repeat(4, 250px);
-  gap: 5.5rem 2rem;
-}
-.favorite_card{
-  padding: 9.75rem 1.5rem 2rem;
-}
-.favorite_img{
-  width: 180px;
-  top: -4rem;
-}
-.favorite_price{
-  font-size: var(--h3-font-size);
-}
-.favorite_button{
-  font-size: 1.rem;
-  bottom: 2rem;
-  right: 1.5rem;
-}
 
 .contact_container{
   padding-block: 4rem;
